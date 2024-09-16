@@ -15,3 +15,5 @@ This project aims to explore the data obtained and find out several key insights
   1. table creation
   2. sorting and finding
   3. calculation
+
+Access the Full Report on Notion -> [Market Trade Analysis - Coffee Trade Worldwide](https://ardianthap.notion.site/Market-Analysis-Coffee-Trade-Worldwide-79f22aad8a3e448abe3c7a7fec28e524?pvs=4)

@@ -45,9 +45,12 @@ ALTER TABLE coffeetrade
 ADD CONSTRAINT flag_id
 	FOREIGN KEY (flag_id) REFERENCES flags(flag_id);
 
--- creating backup table for coffee trade
-SELECT * INTO coffeetradebackup
-FROM coffeetrade;
+-- create backup table
+CREATE TABLE coffeetrade_copy (LIKE coffeetrade INCLUDING ALL);
+
+-- populating backup table by pulling data from original table
+INSERT INTO coffeetrade_copy
+SELECT * FROM coffeetrade;
 
 -- create table for importer only by countries
 CREATE TABLE importercountry (

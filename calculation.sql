@@ -338,7 +338,7 @@ SELECT
 FROM coffeetrade
 WHERE elementname = 'Import Value';
 	
--- checking Export Value view
+-- checking Import Value view
 SELECT * FROM "Import Value"
 
 --  creating a numerical view to notice Export $ value relative to every tonnage
